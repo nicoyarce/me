@@ -3,7 +3,7 @@
 #### nicoyarce@gmail.com ✉️
 #### [Linkedin](www.linkedin.com/in/nicoyarce/) 🏢
 
-Egresado el 2018, poseo conocimientos en desarrollo Web utilizando PHP, JS, HTML5, CSS3, y funcionalidades básicas de ReactJS, nociones en el desarrollo de aplicaciones de escritorio, utilizando Java, es capaz de trabajar colaborativamente junto a equipos de desarrollo de software y trabajar de manera independiente y proactiva, mientras logra aprender el uso de nuevas herramientas. 
+Egresado el 2018, poseo conocimientos en desarrollo Web utilizando PHP, JS, HTML5, CSS3, y funcionalidades básicas de ReactJS, conocimientos básicos en el desarrollo de aplicaciones de escritorio, utilizando Java, es capaz de trabajar colaborativamente junto a equipos de desarrollo de software y trabajar de manera independiente y proactiva, mientras logra aprender el uso de nuevas herramientas. 
 ##### Actualmente aprendiendo ReactJS y NodeJS 👨‍💻
 
 ### Experiencias laborales
