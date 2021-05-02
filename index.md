@@ -19,7 +19,7 @@ Trabajo como Ingeniero de Desarrollo de Software para el Departamento de Desarro
 
 Trabajé de manera independiente en el diseño, desarrollo e implementación de un Sistema de cartas Gantt para la Dirección de Recuperación de Unidades de la Armada de Chile, utilizando Laravel 5,  jQuery, d3.js y MySQL. Se levantaron mantenedores de proyectos y tareas y utilizando d3.js se generó un gráfico de torta mostrando las tareas de acuerdo a ciertos criterios personalizables, como colores y/o prioridades.
 
-[Ver Demo en Heroku](https://cake-tasks.herokuapp.com/) 📊
+### [Ver Demo en Heroku](https://cake-tasks.herokuapp.com/) 📊
 
 
 - **Universidad del Bío Bío, Proyecto de título**
@@ -27,4 +27,4 @@ Trabajé de manera independiente en el diseño, desarrollo e implementación de 
 
 Trabajé en la investigación e implementación de una herramienta para la optimizacion de modelos energéticos de viviendas utilizando el framework MOEA para Java y la biblioteca eppy para Python, con la finalidad de desarrollar una solución que lograra mejorar el gasto energético en función de los cambios a ciertas propiedades de aislación de los materiales de una edificación.
 
-[Ver Repositorio en GitHub](https://github.com/nicoyarce/ProyectoEP) 🏠
+### [Ver Repositorio en GitHub](https://github.com/nicoyarce/ProyectoEP) 🏠
