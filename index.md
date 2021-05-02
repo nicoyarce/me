@@ -1,4 +1,4 @@
- # Nicolás Oyarce Aburto 👓
+##Nicolás Oyarce Aburto 👓
 ### Ingeniero de ejecución en Computacion Informática 🖥️ ⌨️ 🖱️
 #### nicoyarce@gmail.com ✉️
 #### [Linkedin](www.linkedin.com/in/nicoyarce/) 🏢
