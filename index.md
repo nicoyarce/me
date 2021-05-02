@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Nicolás Oyarce Aburto 👓
+### Ingeniero de ejecución en Computacion Informática 🖥️
+#### nicoyarce@gmail.com ✉️
+#### [Linkedin](www.linkedin.com/in/nicoyarce/) 🏢
 
-You can use the [editor on GitHub](https://github.com/nicoyarce/githubpage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Egresado el 2018, poseo conocimientos en desarrollo Web utilizando PHP, JS, HTML5, CSS3, y funcionalidades básicas de ReactJS, nociones en el desarrollo de aplicaciones de escritorio, utilizando Java, es capaz de trabajar colaborativamente junto a equipos de desarrollo de software y trabajar de manera independiente y proactiva, mientras logra aprender el uso de nuevas herramientas.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Experiencias laborales
 
-### Markdown
+- **Universidad del Bío Bío, Ingeniero de desarrollo de software**
+*marzo de 2019 - presente, Concepción - Chile*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Trabajo como Ingeniero de Desarrollo de Software para el Departamento de Desarrollo de Sistemas de la Universidad del Bío Bío, apoyando el desarrollo y mantención de procesos de recursos humanos, utilizando el motor de plantillas Smarty y el framework jQuery en Frontend, para el caso del backend, PHP 5 y SQL Server, así como también Power Builder 11 para el desarrollo de aplicaciones cliente/servidor de escritorio.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- **Dirección de Recuperación de Unidades de la Armada, Desarrollador Fullstack**
+*junio de 2018 - mayo de 2020, Talcahuano - Chile*
 
-- Bulleted
-- List
+Trabajé de manera independiente en el diseño, desarrollo e implementación de un Sistema de cartas Gantt para la Dirección de Recuperación de Unidades de la Armada de Chile, utilizando Laravel 5,  jQuery, d3.js y MySQL. Se levantaron mantenedores de proyectos y tareas y utilizando d3.js se generó un gráfico de torta mostrando las tareas de acuerdo a ciertos criterios personalizables, como colores y/o prioridades.
+[Ver Demo](https://cake-tasks.herokuapp.com/)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+- **Universidad del Bío Bío, Proyecto de título**
+*julio de 2017 - mayo de 2018, Concepción - Chile*
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nicoyarce/githubpage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Trabajé en la investigación e implementación de una herramienta para la optimizacion de modelos energéticos de viviendas utilizando el framework MOEA para Java y la biblioteca eppy para Python, con la finalidad de desarrollar una solución que lograra mejorar el gasto energético en función de los cambios a ciertas propiedades de aislación de los materiales de una edificación.
+[Ver Repositorio](https://github.com/nicoyarce/ProyectoEP)
