@@ -46,11 +46,11 @@ const figure3 = new THREE.Mesh(geometry3, material3);
 figure3.position.set(-2, -1, 2);
 scene.add(figure3);
 
-const pointLight = new THREE.PointLight(0xffffff, 0.5);
-pointLight.position.set(1, 1, 1);
+const pointLight = new THREE.PointLight(0xffffff);
+pointLight.position.set(0.5, 0, 1);
 scene.add(pointLight);
 
-const ambientLight = new THREE.AmbientLight(0xffffff);
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambientLight);
 
 // const lightHelper = new THREE.PointLightHelper(pointLight);
