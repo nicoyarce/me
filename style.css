@@ -18,8 +18,8 @@ main {
 header {
     grid-column: 2 / span 5;
     background-color: rgba(0, 0, 0, 0.65);
-    margin-top: 3%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding: 3%;
     display: flex;
     justify-content: space-around;
@@ -29,12 +29,43 @@ section {
     grid-column: 2 / 8;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.75);
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     padding: 3%;
 }
 
-.left {
+.proyectos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.proyecto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.right {
     grid-column: 6 / 12;
+}
+
+.left {
+    grid-column: 2 / 4;
+}
+
+a {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    margin: auto;
 }
 
 @media screen and (max-width: 720px) {
