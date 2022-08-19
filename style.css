@@ -46,12 +46,9 @@ section {
     padding: 10px;
 }
 
-.right {
-    grid-column: 6 / 12;
-}
-
-.left {
-    grid-column: 2 / 4;
+.title {
+    grid-column: 2 /  12;
+    padding: 2%;
 }
 
 a {
