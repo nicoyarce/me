@@ -14,9 +14,9 @@ cd dist
 
 git init
 git add -A
-git commit -m 'Deploy de app'
+git commit -m 'Deploy de app `date`'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:nicoyarce/me.git master:gh-pages
+git push -f git@github.com:nicoyarce/me.git main:gh-pages
 
 cd -
