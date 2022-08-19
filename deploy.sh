@@ -3,6 +3,8 @@
 # abort on errors
 set -e
 
+rm -drf dist
+
 # build
 npm run build
 
@@ -13,6 +15,7 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
+git checkout -b main
 git add -A
 git commit -m "Deploy de app `date +'%Y-%m-%d %H:%M:%S'`"
 
