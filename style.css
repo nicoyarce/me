@@ -16,11 +16,11 @@ main {
 }
 
 header {
-    grid-column: 2 / span 5;
-    background-color: rgba(0, 0, 0, 0.65);
+    grid-column: 2 / span 6;
+    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 5%;
     margin-bottom: 5%;
-    padding: 3%;
+    padding: 2%;
     display: flex;
     justify-content: space-around;
 }
@@ -28,14 +28,13 @@ header {
 section {
     grid-column: 2 / 8;
     user-select: none;
-    background-color: rgba(0, 0, 0, 0.75);
-    margin-bottom: 5%;
-    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 3%;
+    padding: 2%;
 }
 
 .proyectos {
     display: flex;
-    justify-content: center;
     flex-direction: row;
 }
 
@@ -47,7 +46,20 @@ section {
 }
 
 .title {
-    grid-column: 2 /  12;
+    grid-column: 2 / 12;
+    padding: 1%;
+}
+
+.seccion-izq {
+    grid-column: 2/10;
+}
+
+.seccion-der {
+    grid-column: 12/4;
+}
+
+.footer {
+    grid-column: 1/4;
     padding: 2%;
 }
 

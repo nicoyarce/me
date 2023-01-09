@@ -20,7 +20,9 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setX(-3);
 camera.position.setZ(30);
-
+//eje x: mov horizontal
+//eje y: mov vertical
+//eje z: cercania con camara
 const geometry1 = new THREE.IcosahedronGeometry(1);
 const material1 = new THREE.MeshStandardMaterial({
     color: 0x165654,
@@ -46,8 +48,16 @@ const figure3 = new THREE.Mesh(geometry3, material3);
 figure3.position.set(-2, -1, 2);
 scene.add(figure3);
 
+const geometry4 = new THREE.ConeGeometry(2, 2, 4);
+const material4 = new THREE.MeshStandardMaterial({
+    color: 0xc42744,
+});
+const figure4 = new THREE.Mesh(geometry4, material4);
+figure4.position.set(1, 1, -10);
+scene.add(figure4);
+
 const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(0.5, 0, 1);
+pointLight.position.set(0.5, 0, 3);
 scene.add(pointLight);
 
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
@@ -68,7 +78,7 @@ function addStar() {
     star.position.set(x, y, z);
     scene.add(star);
 }
-Array(200).fill().forEach(addStar);
+Array(500).fill().forEach(addStar);
 
 function reloadBackground() {
     const background = new THREE.TextureLoader().load(
@@ -93,7 +103,7 @@ reloadBackground();
 
 const foto = new THREE.TextureLoader().load(pictureFile);
 const nico = new THREE.Mesh(
-    new THREE.BoxGeometry(1, 1, 0.09),
+    new THREE.BoxGeometry(1, 1, 0.07),
     new THREE.MeshBasicMaterial({ map: foto })
 );
 nico.position.set(1, 1, -2.5);
@@ -102,7 +112,7 @@ scene.add(nico);
 
 function moveCamera() {
     const t = document.body.getBoundingClientRect().top;
-    camera.position.z = t * -0.005;
+    camera.position.z = t * -0.002;
     camera.position.x = t * -0.001;
     camera.rotation.y = t * -0.0002;
 }
@@ -120,6 +130,8 @@ function animate() {
     figure3.rotation.x -= 0.001;
     figure3.rotation.y -= 0.001;
     figure3.rotation.z -= 0.001;
+
+    figure4.rotation.y += 0.005;
 
     renderer.render(scene, camera);
 }
