@@ -1,89 +1,183 @@
 canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 main {
-    position: absolute;
-    color: rgb(175, 175, 175);
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1.1em;
-    margin: 0px auto;
+  position: absolute;
+  color: gainsboro;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.1em;
+  margin: 0px auto;
 }
 
 header {
-    grid-column: 2 / span 6;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 2%;
-    display: flex;
-    justify-content: space-around;
+  grid-column: 2 / span 6;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
 }
 
 section {
-    grid-column: 2 / 8;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin-bottom: 3%;
-    padding: 2%;
+  grid-column: 2 / 8;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 3%;
+  padding: 2%;
+  border-radius: 10px;
 }
 
 .proyectos {
-    display: flex;
-    flex-direction: row;
-}
-
-.proyecto {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  grid-column: 2/12;
 }
 
 .title {
-    grid-column: 2 / 12;
-    padding: 1%;
+  grid-column: 2 / 12;
+  padding: 1%;
+}
+
+.full-width {
+  grid-column: 2 / 12;
 }
 
 .seccion-izq {
-    grid-column: 2/10;
+  grid-column: 2/10;
 }
 
 .seccion-der {
-    grid-column: 12/4;
-}
-
-.footer {
-    grid-column: 1/4;
-    padding: 2%;
+  grid-column: 12/4;
 }
 
 a {
-    background-color: gainsboro;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
+  background-color: rgba(69, 124, 175, 1);
+  color: gainsboro;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #3a465fd9;
 }
 
 img {
-    width: 50%;
-    height: auto;
-    padding: 5px;
-    margin: auto;
+  height: 20%;
+  width: 80%;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 720px) {
-    main {
-        font-size: 0.9em;
-    }
-    header,
-    section,
-    .left {
-        grid-column: 2 / 12;
-    }
+  main {
+    font-size: 0.9em;
+  }
+  header,
+  section {
+    grid-column: 2 / 12;
+  }
+  header {
+    margin-top: 350px;
+  }
+}
+
+.parent {
+  width: 100%;
+  padding: 20px;
+  perspective: 1000px;
+}
+
+.card {
+  padding-top: 50px;
+  border-radius: 10px;
+  border: 2px solid gainsboro;
+  transform-style: preserve-3d;
+  background: radial-gradient(
+    circle,
+    gainsboro 0%,
+    rgba(69, 124, 175, 1) 10%,
+    rgba(0, 0, 0, 0.8) 15%
+  );
+  background-size: 15px 15px;
+  background-position: 0 0, 0 0;
+  width: 100%;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  background-position: -100px 100px, -150px 150px;
+  transform: rotate3d(0, 1, 0, 30deg);
+}
+
+.content-box {
+  background: rgba(69, 124, 175, 1);
+  /* border-radius: 10px 100px 10px 10px; */
+  transition: all 0.5s ease-in-out;
+  padding: 60px 25px 25px 25px;
+  transform-style: preserve-3d;
+}
+
+.content-box .card-title {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 50px);
+}
+
+.content-box .card-title:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .card-content {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f2f2f2;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 30px);
+}
+
+.content-box .card-content:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .see-more {
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(21, 111, 194);
+  /* border-radius: 5px; */
+  background: white;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
+  border-radius: 10px;
+}
+
+.content-box .see-more:hover {
+  transform: translate3d(0px, 0px, 60px);
 }
