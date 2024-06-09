@@ -95,13 +95,17 @@ img {
     grid-column: 2 / 12;
   }
   header {
-    margin-top: 350px;
+    margin-top: 325px;
+  }
+  .proyectos {
+    flex-direction: column;
+    grid-column: 2/12;
   }
 }
 
 .parent {
-  width: 100%;
-  padding: 20px;
+  width: auto;
+  padding: 10px;
   perspective: 1000px;
 }
 
@@ -132,7 +136,7 @@ img {
   background: rgba(69, 124, 175, 1);
   /* border-radius: 10px 100px 10px 10px; */
   transition: all 0.5s ease-in-out;
-  padding: 60px 25px 25px 25px;
+  padding: 35px 25px 25px 25px;
   transform-style: preserve-3d;
 }
 
