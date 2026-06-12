@@ -176,3 +176,21 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         }
     });
 });
+
+function calcularAniosDesde(fechaInicio) {
+    const hoy = new Date();
+    let annos = hoy.getFullYear() - fechaInicio.getFullYear();
+    const aniversario = new Date(hoy.getFullYear(), fechaInicio.getMonth(), fechaInicio.getDate());
+
+    if (hoy < aniversario) {
+        annos -= 1;
+    }
+
+    return annos;
+}
+
+const annosExp = document.getElementById("annos_exp");
+if (annosExp) {
+    const fechaInicio = new Date(2019, 0, 1); // 1 de marzo de 2019
+    annosExp.textContent = String(calcularAniosDesde(fechaInicio));
+}
